@@ -1,0 +1,513 @@
+.training-hero{
+
+height:70vh;
+
+background:url("../assets/images/treninky.jpg");
+
+background-size:cover;
+
+background-position:center;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+position:relative;
+
+}
+
+.training-hero .overlay{
+
+position:absolute;
+
+inset:0;
+
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.65));
+
+}
+
+.training-hero .hero-content{
+
+position:relative;
+
+z-index:2;
+
+text-align:center;
+
+color:white;
+
+}
+
+.training-hero h1{
+
+font-size:72px;
+
+font-weight:800;
+
+margin-bottom:20px;
+
+}
+
+.training-hero p{
+
+font-size:26px;
+
+color:#D4AF37;
+
+margin-bottom:20px;
+
+}
+
+.training-hero h2{
+
+font-size:30px;
+
+font-weight:300;
+
+}
+
+.training-intro{
+
+padding:100px 8%;
+
+text-align:center;
+
+background:white;
+
+}
+
+.training-intro h2{
+
+font-size:48px;
+
+color:#0B1D3A;
+
+margin-bottom:25px;
+
+}
+
+.training-intro p{
+
+max-width:900px;
+
+margin:auto;
+
+font-size:20px;
+
+line-height:1.8;
+
+color:#555;
+
+}
+
+.coaches{
+
+padding:120px 8%;
+
+background:#f7f9fc;
+
+}
+
+.section-title{
+
+text-align:center;
+
+margin-bottom:70px;
+
+}
+
+.section-title span{
+
+color:#D4AF37;
+
+font-weight:700;
+
+letter-spacing:2px;
+
+}
+
+.section-title h2{
+
+font-size:52px;
+
+margin:20px 0;
+
+color:#0B1D3A;
+
+}
+
+.section-title p{
+
+font-size:19px;
+
+color:#666;
+
+}
+
+.coach-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+
+gap:40px;
+
+}
+/* ================================
+   COACH CARDS
+================================ */
+
+.coach-card{
+
+background:white;
+
+border-radius:28px;
+
+overflow:hidden;
+
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+transition:.4s;
+
+}
+
+.coach-card:hover{
+
+transform:translateY(-12px);
+
+box-shadow:0 25px 60px rgba(0,0,0,.15);
+
+}
+
+.coach-card img{
+
+width:100%;
+
+height:420px;
+
+object-fit:cover;
+
+display:block;
+
+}
+
+.coach-content{
+
+padding:35px;
+
+}
+
+.coach-content h3{
+
+font-size:30px;
+
+color:#0B1D3A;
+
+margin-bottom:10px;
+
+}
+
+.coach-content span{
+
+display:inline-block;
+
+margin-bottom:25px;
+
+padding:8px 18px;
+
+background:#D4AF37;
+
+color:white;
+
+font-weight:700;
+
+border-radius:30px;
+
+}
+
+.coach-content ul{
+
+list-style:none;
+
+padding:0;
+
+}
+
+.coach-content li{
+
+margin-bottom:15px;
+
+line-height:1.7;
+
+font-size:17px;
+
+color:#555;
+
+}
+/* ===========================
+   TENISOVÁ AKADEMIE
+=========================== */
+
+.academy{
+
+padding:120px 8%;
+
+display:grid;
+
+grid-template-columns:1.3fr .7fr;
+
+gap:60px;
+
+align-items:center;
+
+background:white;
+
+}
+
+.academy span{
+
+color:#D4AF37;
+
+font-weight:700;
+
+letter-spacing:2px;
+
+}
+
+.academy h2{
+
+font-size:52px;
+
+margin:20px 0;
+
+color:#0B1D3A;
+
+}
+
+.academy p{
+
+font-size:19px;
+
+line-height:1.9;
+
+color:#555;
+
+margin-bottom:25px;
+
+}
+
+.academy-button{
+
+display:inline-block;
+
+margin-top:20px;
+
+padding:18px 40px;
+
+border-radius:50px;
+
+background:linear-gradient(135deg,#C89B3C,#F4D67A);
+
+color:white;
+
+font-weight:700;
+
+transition:.35s;
+
+box-shadow:0 12px 35px rgba(212,175,55,.35);
+
+}
+
+.academy-button:hover{
+
+transform:translateY(-5px);
+
+}
+
+.academy-box{
+
+padding:45px;
+
+border-radius:30px;
+
+background:#0B1D3A;
+
+color:white;
+
+box-shadow:0 25px 60px rgba(0,0,0,.2);
+
+}
+
+.academy-box h3{
+
+font-size:34px;
+
+margin-bottom:30px;
+
+}
+
+.contact-item{
+
+padding-bottom:25px;
+
+margin-bottom:25px;
+
+border-bottom:1px solid rgba(255,255,255,.2);
+
+}
+
+.contact-item:last-child{
+
+border:none;
+
+margin-bottom:0;
+
+padding-bottom:0;
+
+}
+
+.contact-item strong{
+
+display:block;
+
+margin-bottom:12px;
+
+font-size:22px;
+
+}
+
+.contact-item p{
+
+color:#ddd;
+
+margin:6px 0;
+
+font-size:17px;
+
+}
+
+/* ===== Letní soustředění ===== */
+
+.camp-section {
+    max-width: 550px;
+    margin: 80px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.camp-section h2 {
+    font-size: 2.4rem;
+    color: #d4af37;
+    margin-bottom: 15px;
+}
+
+.camp-text {
+    color: #d0d0d0;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    line-height: 1.7;
+}
+
+.camp-card {
+    background: rgba(255,255,255,0.05);
+    border-radius: 20px;
+    padding: 25px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,.25);
+    transition: .3s;
+}
+
+.camp-card:hover {
+    transform: translateY(-6px);
+}
+
+.camp-card img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 18px;
+    box-shadow: 0 12px 35px rgba(0,0,0,.35);
+}
+
+.camp-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn-primary,
+.btn-secondary {
+    padding: 15px 30px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.btn-primary {
+    background: #d4af37;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+}
+
+.btn-secondary {
+    border: 2px solid #d4af37;
+    color: #d4af37;
+}
+
+.btn-secondary:hover {
+    background: #d4af37;
+    color: white;
+}
+
+@media (max-width:768px){
+
+.camp-section h2{
+font-size:2rem;
+}
+
+.camp-buttons{
+flex-direction:column;
+align-items:center;
+}
+
+.btn-primary,
+.btn-secondary{
+width:100%;
+max-width:320px;
+}
+
+}
+/* ===========================
+   FOOTER
+=========================== */
+
+.footer{
+
+padding:50px;
+
+background:#08111d;
+
+text-align:center;
+
+color:white;
+
+}
+
+.footer h3{
+
+margin-bottom:15px;
+
+font-size:28px;
+
+}
+
+.footer p{
+
+color:#bdbdbd;
+
+}

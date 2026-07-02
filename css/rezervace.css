@@ -1,0 +1,316 @@
+/* ==========================
+   HERO
+========================== */
+
+.reservation-hero{
+
+height:65vh;
+
+background:url("../assets/images/rezervace.jpg");
+
+background-size:cover;
+
+background-position:center;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+position:relative;
+
+}
+
+.reservation-hero .overlay{
+
+position:absolute;
+
+inset:0;
+
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.70));
+
+}
+
+.hero-content{
+
+position:relative;
+
+z-index:2;
+
+text-align:center;
+
+color:white;
+
+}
+
+.hero-content h1{
+
+font-size:72px;
+
+margin-bottom:20px;
+
+}
+
+.hero-content p{
+
+font-size:24px;
+
+color:#D4AF37;
+
+}
+
+/* ==========================
+   FORMULÁŘ
+========================== */
+
+.reservation{
+
+padding:120px 8%;
+
+background:#f7f9fc;
+
+display:flex;
+
+justify-content:center;
+
+}
+
+.reservation-card{
+
+width:100%;
+
+max-width:950px;
+
+background:white;
+
+padding:60px;
+
+border-radius:30px;
+
+box-shadow:0 20px 50px rgba(0,0,0,.08);
+
+}
+
+.reservation-card h2{
+
+font-size:46px;
+
+color:#0B1D3A;
+
+margin-bottom:15px;
+
+}
+
+.reservation-card p{
+
+font-size:18px;
+
+color:#666;
+
+margin-bottom:40px;
+
+line-height:1.8;
+
+}
+
+.row{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:25px;
+
+margin-bottom:25px;
+
+}
+
+input,
+select,
+textarea{
+
+width:100%;
+
+padding:18px 22px;
+
+border:2px solid #e4e4e4;
+
+border-radius:16px;
+
+font-size:17px;
+
+font-family:inherit;
+
+transition:.3s;
+
+background:white;
+
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+
+outline:none;
+
+border-color:#D4AF37;
+
+box-shadow:0 0 15px rgba(212,175,55,.25);
+
+}
+
+textarea{
+
+height:170px;
+
+resize:none;
+
+margin-bottom:30px;
+
+}
+
+button[type="submit"]{
+
+width:100%;
+
+padding:20px;
+
+border:none;
+
+border-radius:50px;
+
+background:linear-gradient(135deg,#C89B3C,#F4D67A);
+
+color:white;
+
+font-size:20px;
+
+font-weight:700;
+
+cursor:pointer;
+
+transition:.35s;
+
+box-shadow:0 15px 35px rgba(212,175,55,.35);
+
+}
+
+button[type="submit"]:hover{
+
+transform:translateY(-4px);
+
+box-shadow:0 22px 45px rgba(212,175,55,.45);
+
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media(max-width:768px){
+
+.row{
+
+grid-template-columns:1fr;
+
+}
+
+.reservation-card{
+
+padding:35px;
+
+}
+
+.hero-content h1{
+
+font-size:46px;
+
+}
+
+.hero-content p{
+
+font-size:18px;
+
+}
+
+}
+/* ==========================
+   INFO BOX
+========================== */
+
+.info-box{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:20px;
+
+margin:35px 0 45px;
+
+}
+
+.info-item{
+
+display:flex;
+
+align-items:center;
+
+gap:18px;
+
+padding:22px;
+
+border-radius:20px;
+
+background:#f7f9fc;
+
+transition:.3s;
+
+}
+
+.info-item:hover{
+
+transform:translateY(-5px);
+
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.icon{
+
+font-size:38px;
+
+}
+
+.info-item h3{
+
+margin:0 0 6px;
+
+font-size:20px;
+
+color:#0B1D3A;
+
+}
+
+.info-item p{
+
+margin:0;
+
+font-size:15px;
+
+line-height:1.6;
+
+color:#666;
+
+}
+
+@media(max-width:900px){
+
+.info-box{
+
+grid-template-columns:1fr;
+
+}
+
+}

@@ -1,0 +1,355 @@
+.tournament-hero{
+
+height:70vh;
+
+background:url("../assets/images/turnaje.jpg");
+
+background-size:cover;
+
+background-position:center;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+position:relative;
+
+}
+
+.tournament-hero .overlay{
+
+position:absolute;
+
+inset:0;
+
+background:linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65));
+
+}
+
+.tournament-hero .hero-content{
+
+position:relative;
+
+z-index:2;
+
+text-align:center;
+
+color:white;
+
+}
+
+.tournament-hero h1{
+
+font-size:72px;
+
+margin-bottom:20px;
+
+}
+
+.tournament-hero p{
+
+font-size:24px;
+
+color:#D4AF37;
+
+margin-bottom:20px;
+
+}
+
+.tournament-hero h2{
+
+font-size:30px;
+
+font-weight:300;
+
+}
+
+.intro{
+
+padding:100px 8%;
+
+text-align:center;
+
+}
+
+.intro h2{
+
+font-size:50px;
+
+margin-bottom:25px;
+
+color:#2265cf;
+
+}
+
+.intro p{
+
+font-size:20px;
+
+line-height:1.8;
+
+max-width:900px;
+
+margin:auto;
+
+color:#c3bdbd;
+
+}
+
+.teams{
+
+padding:80px 8%;
+
+background:#f7f9fc;
+
+}
+
+.section-title{
+
+text-align:center;
+
+font-size:48px;
+
+margin-bottom:60px;
+
+color:#2265cf;
+
+}
+
+.accordion{
+
+max-width:1200px;
+
+margin:auto;
+
+display:flex;
+
+flex-direction:column;
+
+gap:20px;
+
+}
+/* ==========================
+   ACCORDION
+========================== */
+
+.accordion-item{
+
+background:white;
+
+border-radius:24px;
+
+overflow:hidden;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+transition:.3s;
+
+}
+
+.accordion-item:hover{
+
+box-shadow:0 20px 45px rgba(0,0,0,.15);
+
+}
+
+.accordion-header{
+
+width:100%;
+
+padding:28px 35px;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+background:white;
+
+border:none;
+
+cursor:pointer;
+
+font-size:24px;
+
+font-weight:700;
+
+color:#0B1D3A;
+
+}
+
+.plus{
+
+font-size:32px;
+
+color:#D4AF37;
+
+transition:.3s;
+
+}
+
+.accordion-item.active .plus{
+
+transform:rotate(45deg);
+
+}
+
+.accordion-content{
+
+max-height:0;
+
+overflow:hidden;
+
+transition:max-height .45s ease;
+
+background:#fafafa;
+
+}
+
+.players{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:60px;
+
+padding:40px;
+
+}
+
+.players h3{
+
+margin-bottom:20px;
+
+font-size:26px;
+
+color:#0B1D3A;
+
+}
+
+.players ol{
+
+padding-left:20px;
+
+line-height:2;
+
+font-size:18px;
+
+color:#555;
+
+}
+/* ==========================
+   RESULTS
+========================== */
+
+.results{
+
+padding:120px 8%;
+
+background:white;
+
+text-align:center;
+
+}
+
+.results span{
+
+color:#D4AF37;
+
+font-weight:700;
+
+letter-spacing:2px;
+
+}
+
+.results h2{
+
+font-size:52px;
+
+margin:20px 0;
+
+color:#0B1D3A;
+
+}
+
+.results p{
+
+max-width:850px;
+
+margin:0 auto 40px;
+
+font-size:20px;
+
+line-height:1.8;
+
+color:#555;
+
+}
+
+.results-button{
+
+display:inline-block;
+
+padding:18px 42px;
+
+background:linear-gradient(135deg,#C89B3C,#F4D67A);
+
+color:white;
+
+font-size:18px;
+
+font-weight:700;
+
+text-decoration:none;
+
+border-radius:50px;
+
+box-shadow:0 15px 40px rgba(212,175,55,.35);
+
+transition:.35s;
+
+}
+
+.results-button:hover{
+
+transform:translateY(-5px);
+
+box-shadow:0 22px 50px rgba(212,175,55,.45);
+
+}
+
+/* ==========================
+   FOOTER
+========================== */
+
+.footer{
+
+background:#08111d;
+
+padding:60px 20px;
+
+text-align:center;
+
+color:white;
+
+}
+
+.footer h3{
+
+font-size:30px;
+
+margin-bottom:15px;
+
+}
+
+.footer p{
+
+color:#bfbfbf;
+
+font-size:16px;
+
+}

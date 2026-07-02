@@ -1,0 +1,116 @@
+/* ===================================
+   PREMIUM BUTTONS
+=================================== */
+
+.primary,
+.secondary{
+
+position:relative;
+
+display:inline-flex;
+
+justify-content:center;
+
+align-items:center;
+
+padding:18px 42px;
+
+border-radius:60px;
+
+font-size:16px;
+
+font-weight:700;
+
+letter-spacing:.5px;
+
+overflow:hidden;
+
+cursor:pointer;
+
+transition:.45s ease;
+
+}
+
+/* Zlaté tlačítko */
+
+.primary{
+
+background:linear-gradient(
+135deg,
+#C89B3C,
+#F4D67A
+);
+
+color:white;
+
+box-shadow:
+
+0 12px 35px rgba(212,175,55,.35);
+
+}
+
+/* Bílý odlesk */
+
+.primary::before{
+
+content:"";
+
+position:absolute;
+
+top:0;
+
+left:-120%;
+
+width:60%;
+
+height:100%;
+
+background:linear-gradient(
+
+90deg,
+
+transparent,
+
+rgba(255,255,255,.75),
+
+transparent
+
+);
+
+transform:skewX(-25deg);
+
+transition:.8s;
+
+}
+
+.primary:hover::before{
+
+left:160%;
+
+}
+
+.primary:hover{
+
+transform:translateY(-5px);
+
+box-shadow:
+
+0 18px 45px rgba(212,175,55,.55);
+
+}
+
+/* Glass tlačítko */
+
+.secondary{
+
+background:rgba(255,255,255,.08);
+
+border:1px solid rgba(255,255,255,.35);
+
+backdrop-filter:blur(18px);
+
+-webkit-backdrop-filter:blur(18px);
+
+color:white;
+
+}

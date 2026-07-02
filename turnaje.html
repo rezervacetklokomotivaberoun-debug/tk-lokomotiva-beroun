@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Turnaje | TK Lokomotiva Beroun</title>
+<link rel="icon" type="image/png" href="assets/images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/navbar.css">
+<link rel="stylesheet" href="css/buttons.css">
+<link rel="stylesheet" href="css/turnaje.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/cursor.css">
+<link rel="stylesheet" href="css/hero.css">
+<link rel="stylesheet" href="css/loader.css">
+
+</head>
+
+<body>
+<!-- Loader -->
+
+<div id="loader">
+
+<div class="loader-logo">
+<img src="assets/images/logo.png">
+</div>
+
+<div class="loader-line"></div>
+
+</div>
+
+<!-- kurzor -->
+
+<div class="cursor"></div>
+
+<div class="cursor-outline"></div>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+<img src="assets/images/logo.png">
+
+<span>TK Lokomotiva Beroun</span>
+
+</div>
+
+<ul>
+
+<li><a href="index.html">Domů</a></li>
+
+<li><a href="o-klubu.html">O klubu</a></li>
+
+<li><a href="treninky.html">Tréninky</a></li>
+
+<li><a href="turnaje.html" class="active">Turnaje</a></li>
+
+<li><a href="galerie.html">Galerie</a></li>
+
+<li><a href="kontakt.html">Kontakt</a></li>
+
+</ul>
+
+<a href="rezervace.html" class="button">
+    Rezervace
+</a>
+
+<div class="hamburger" id="hamburger">
+
+<span></span>
+<span></span>
+<span></span>
+
+</div>
+
+</nav>
+
+</header>
+
+<section class="tournament-hero">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h1>TURNAJE</h1>
+
+<p>
+
+Účastníme se soutěží smíšených družstev ve všech věkových kategoriích.
+
+</p>
+
+<h2>
+
+Výsledky • Soupisky • Český tenisový svaz
+
+</h2>
+
+</div>
+
+</section>
+
+<section class="intro">
+
+<div class="container">
+
+<h2>Naše družstva</h2>
+
+<p>
+
+TK Lokomotiva Beroun pravidelně nastupuje v soutěžích Českého tenisového svazu.
+Níže naleznete soupisky všech našich družstev.
+
+</p>
+
+</div>
+
+</section>
+
+<section class="teams">
+
+<h2 class="section-title">
+
+Soupisky družstev
+
+</h2>
+
+<div class="accordion">
+<!-- Mladší žactvo -->
+
+<div class="accordion-item">
+
+<button class="accordion-header">
+
+<span>Mladší žactvo</span>
+
+<span class="plus">+</span>
+
+</button>
+
+<div class="accordion-content">
+
+<div class="players">
+
+<div>
+
+<h3>Chlapci</h3>
+
+<ol>
+
+<li>Hadrava Erik</li>
+<li>Halman Daniel</li>
+<li>Trnka Matyáš</li>
+<li>Bábela Rafael</li>
+
+</ol>
+
+</div>
+
+<div>
+
+<h3>Dívky</h3>
+
+<ol start="21">
+
+<li>Pavlisková Valerie</li>
+<li>Pivcová Marie</li>
+<li>Honomichlová Nicole</li>
+
+</ol>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Starší žactvo A -->
+
+<div class="accordion-item">
+
+<button class="accordion-header">
+
+<span>Starší žactvo A</span>
+
+<span class="plus">+</span>
+
+</button>
+
+<div class="accordion-content">
+
+<div class="players">
+
+<div>
+
+<h3>Chlapci</h3>
+
+<ol>
+
+<li>Hausmann Nicolas</li>
+<li>Bláha Adam</li>
+<li>Buňata Pavel</li>
+<li>Trnka Matyáš</li>
+<li>Hadrava Erik</li>
+<li>Halman Daniel</li>
+<li>Bábela Rafael</li>
+<li>Tureček Jonáš</li>
+<li>Komínek Oliver</li>
+<li>Pohlídal Patrik</li>
+
+</ol>
+
+</div>
+
+<div>
+
+<h3>Dívky</h3>
+
+<ol start="21">
+
+<li>Šindelová Tereza</li>
+<li>Žambochová Laura</li>
+<li>Samková Simona</li>
+<li>Pavlisková Valerie</li>
+<li>Pivcová Marie</li>
+<li>Aschermannová Agáta</li>
+
+</ol>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Starší žactvo B -->
+
+<div class="accordion-item">
+
+<button class="accordion-header">
+
+<span>Starší žactvo B</span>
+
+<span class="plus">+</span>
+
+</button>
+
+<div class="accordion-content">
+
+<div class="players">
+
+<div>
+
+<h3>Chlapci</h3>
+
+<ol>
+
+<li>Tureček Jonáš</li>
+<li>Hadrava Erik</li>
+<li>Halman Daniel</li>
+<li>Bábela Rafael</li>
+<li>Komínek Oliver</li>
+<li>Pohlídal Patrik</li>
+
+</ol>
+
+</div>
+
+<div>
+
+<h3>Dívky</h3>
+
+<ol start="21">
+
+<li>Samková Simona</li>
+<li>Pavlisková Valerie</li>
+<li>Pivcová Marie</li>
+<li>Aschermannová Agáta</li>
+<li>Honomichlová Nicole</li>
+
+</ol>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Dorost A -->
+
+<div class="accordion-item">
+
+<button class="accordion-header">
+
+<span>Dorost A</span>
+
+<span class="plus">+</span>
+
+</button>
+
+<div class="accordion-content">
+
+<div class="players">
+
+<div>
+
+<h3>Chlapci</h3>
+
+<ol>
+
+<li>Plecitý Vít</li>
+<li>Zýka Andreas</li>
+<li>Plecitý Vilém</li>
+<li>Hausmann Nicolas</li>
+<li>Bláha Adam</li>
+<li>Adámek Tomáš</li>
+<li>Příhoda Martin</li>
+<li>Tureček Jonáš</li>
+<li>Halman Daniel</li>
+<li>Bábela Rafael</li>
+<li>Trnka Matyáš</li>
+<li>Hadrava Erik</li>
+
+</ol>
+
+</div>
+
+<div>
+
+<h3>Dívky</h3>
+
+<ol start="21">
+
+<li>Beranová Emma</li>
+<li>Pavlisková Viktorie</li>
+<li>Šafrová Klaudie</li>
+<li>Halamová Lada</li>
+<li>Hrušková Anna</li>
+<li>Pivcová Veronika</li>
+<li>Pavlisková Valerie</li>
+<li>Aschermannová Agáta</li>
+
+</ol>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Dorost B -->
+
+<div class="accordion-item">
+
+<button class="accordion-header">
+
+<span>Dorost B</span>
+
+<span class="plus">+</span>
+
+</button>
+
+<div class="accordion-content">
+
+<div class="players">
+
+<div>
+
+<h3>Chlapci</h3>
+
+<ol>
+
+<li>Adámek Tomáš</li>
+<li>Příhoda Martin</li>
+<li>Bláha Adam</li>
+<li>Tureček Jonáš</li>
+<li>Gladič Filip</li>
+<li>Pohlídal Patrik</li>
+<li>Komínek Oliver</li>
+<li>Hadrava Erik</li>
+<li>Halman Daniel</li>
+<li>Trnka Matyáš</li>
+<li>Bábela Rafael</li>
+
+</ol>
+
+</div>
+
+<div>
+
+<h3>Dívky</h3>
+
+<ol start="21">
+
+<li>Šafrová Klaudie</li>
+<li>Halamová Lada</li>
+<li>Hrušková Anna</li>
+<li>Aschermannová Agáta</li>
+<li>Pivcová Veronika</li>
+<li>Pavlisková Valerie</li>
+
+</ol>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Dospělí A -->
+
+<div class="accordion-item">
+
+<button class="accordion-header">
+
+<span>Dospělí A</span>
+
+<span class="plus">+</span>
+
+</button>
+
+<div class="accordion-content">
+
+<div class="players">
+
+<div>
+
+<h3>Muži</h3>
+
+<ol>
+
+<li>Ricci Alessandro</li>
+<li>Jirásek Milan</li>
+<li>Potůček Adam</li>
+<li>Sýkora Tadeáš</li>
+<li>Loužecký Jan</li>
+<li>Loužecký Josef</li>
+<li>Pokorný Dominik</li>
+<li>Piovarči Milan</li>
+<li>Kincl Martin</li>
+<li>Orság Miroslav</li>
+<li>Plecitý Vít</li>
+
+</ol>
+
+</div>
+
+<div>
+
+<h3>Ženy</h3>
+
+<ol start="21">
+
+<li>Špalková Aneta</li>
+<li>Přikrylová Kateřina</li>
+<li>Beranová Emma</li>
+<li>Kupková Lucie</li>
+<li>Frojdová Jana</li>
+<li>Hrušková Anna</li>
+<li>Pavlisková Viktorie</li>
+<li>Větrovská Gabriela</li>
+
+</ol>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Dospělí B -->
+
+<div class="accordion-item">
+
+<button class="accordion-header">
+
+<span>Dospělí B</span>
+
+<span class="plus">+</span>
+
+</button>
+
+<div class="accordion-content">
+
+<div class="players">
+
+<div>
+
+<h3>Muži</h3>
+
+<ol>
+
+<li>Loužecký Jan</li>
+<li>Loužecký Josef</li>
+<li>Pokorný Dominik</li>
+<li>Piovarči Milan</li>
+<li>Kincl Martin</li>
+<li>Orság Miroslav</li>
+<li>Plecitý Vít</li>
+<li>Prokš Daniel</li>
+<li>Sýkora Ivan</li>
+<li>Maleček Pavel</li>
+<li>Medřický Zdeněk</li>
+
+</ol>
+
+</div>
+
+<div>
+
+<h3>Ženy</h3>
+
+<ol start="21">
+
+<li>Beranová Emma</li>
+<li>Kupková Lucie</li>
+<li>Frojdová Jana</li>
+<li>Hrušková Anna</li>
+<li>Krajnikovská Anna</li>
+<li>Pavlisková Viktorie</li>
+<li>Větrovská Gabriela</li>
+<li>Šafrová Klaudie</li>
+
+</ol>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Dospělí C -->
+
+<div class="accordion-item">
+
+<button class="accordion-header">
+
+<span>Dospělí C</span>
+
+<span class="plus">+</span>
+
+</button>
+
+<div class="accordion-content">
+
+<div class="players">
+
+<div>
+
+<h3>Muži</h3>
+
+<ol>
+
+<li>Prokš Daniel</li>
+<li>Kincl Martin</li>
+<li>Orság Miroslav</li>
+<li>Plecitý Vít</li>
+<li>Sýkora Ivan</li>
+<li>Maleček Pavel</li>
+<li>Medřický Zdeněk</li>
+<li>Piovarčí Michal</li>
+<li>Aschermann Ondra</li>
+<li>Příhoda Martin</li>
+<li>Hausmann Nicolas</li>
+<li>Adámek Tomáš</li>
+
+</ol>
+
+</div>
+
+<div>
+
+<h3>Ženy</h3>
+
+<ol start="21">
+
+<li>Frojdová Jana</li>
+<li>Hrušková Anna</li>
+<li>Krajnikovská Anna</li>
+<li>Pavlisková Viktorie</li>
+<li>Větrovská Gabriela</li>
+<li>Šafrová Klaudie</li>
+<li>Pivcová Veronika</li>
+<li>Pavlisková Valerie</li>
+
+</ol>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="results">
+
+<div class="results-content">
+
+<span>ČESKÝ TENISOVÝ SVAZ</span>
+
+<h2>Termíny utkání a výsledky</h2>
+
+<p>
+
+Aktuální termíny soutěžních utkání, výsledky všech našich družstev,
+tabulky i další informace naleznete na oficiálních stránkách
+Českého tenisového svazu.
+
+</p>
+
+<a href="https://www.cztenis.cz"
+target="_blank"
+class="results-button">
+
+Přejít na web ČTS
+
+</a>
+
+</div>
+
+</section>
+
+<footer class="footer">
+
+<div class="footer-content">
+
+<h3>TK Lokomotiva Beroun</h3>
+
+<p>
+
+© 2026 TK Lokomotiva Beroun • Všechna práva vyhrazena
+
+</p>
+
+</div>
+
+</footer>
+
+<script src="js/navbar.js"></script>
+
+<script src="js/mobile-menu.js"></script>
+
+<script src="js/accordion.js"></script>
+
+<script src="js/cursor.js"></script>
+
+<script src="js/loader.js"></script>
+</body>
+
+</html>
